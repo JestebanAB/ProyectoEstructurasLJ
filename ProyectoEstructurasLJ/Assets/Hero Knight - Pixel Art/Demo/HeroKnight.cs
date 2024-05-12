@@ -89,6 +89,7 @@ public class HeroKnight : MonoBehaviour {
 
         //Set AirSpeed in animator
         m_animator.SetFloat("AirSpeedY", m_body2d.velocity.y);
+        
 
         // -- Handle Animations --
         //Wall Slide

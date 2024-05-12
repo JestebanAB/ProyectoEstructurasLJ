@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FondoNivel2 : MonoBehaviour
+public class FondoNiveles : MonoBehaviour
 {
     [SerializeField] private Vector2 movementVelocity;
     private Vector2 offset;

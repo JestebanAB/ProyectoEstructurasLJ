@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
+using System.Text;
 
 public class HeroKnight : MonoBehaviour {
 
@@ -25,6 +27,58 @@ public class HeroKnight : MonoBehaviour {
     private float               m_delayToIdle = 0.0f;
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
+
+
+    private void SendJumpData()
+    {
+        // Datos que se enviarán en la solicitud POST
+        var postData = new UsuarioData
+        {
+            nombre = "juan",
+            correo = "perez@gmail",
+            contraseña = "Clave123!"
+        };
+
+        // Iniciar la corrutina para enviar la solicitud POST
+        StartCoroutine(PostRequest("http://localhost:3000/api/usuario/crear", postData));
+    }
+
+    //función para consumir endpoint
+    private IEnumerator PostRequest(string url, UsuarioData postData)
+    {
+        string jsonData = JsonUtility.ToJson(postData);
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+
+        // Crear una nueva solicitud UnityWebRequest con la URL proporcionada y los datos a enviar
+        using (UnityWebRequest request = UnityWebRequest.PostWwwForm(url, Encoding.UTF8.GetString(bodyRaw)))
+        {
+            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            request.downloadHandler = new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
+
+            // Enviar la solicitud y esperar la respuesta
+            yield return request.SendWebRequest();
+
+            // Comprobar si hubo algún error
+            if (request.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError(request.error);
+            }
+            else
+            {
+                // Registrar la respuesta en la consola
+                Debug.Log(request.downloadHandler.text);
+            }
+        }
+    }
+
+    [System.Serializable]
+    public class UsuarioData
+    {
+        public string nombre;
+        public string correo;
+        public string contraseña;
+    }
 
 
     // Use this for initialization
@@ -154,6 +208,8 @@ public class HeroKnight : MonoBehaviour {
             m_animator.SetBool("Grounded", m_grounded);
             m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
             m_groundSensor.Disable(0.2f);
+
+            SendJumpData();
         }
 
         //Run

@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 323447311}
   - component: {fileID: 323447310}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: textUsername
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 402289470}
   - component: {fileID: 402289469}
   m_Layer: 5
-  m_Name: InputField (TMP)
+  m_Name: LabelEmail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 646654956}
   - component: {fileID: 646654955}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonRegister
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1665,7 +1665,7 @@ GameObject:
   - component: {fileID: 1068943887}
   - component: {fileID: 1068943886}
   m_Layer: 5
-  m_Name: Text (TMP) (3)
+  m_Name: textConfirmPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1800,7 +1800,7 @@ GameObject:
   - component: {fileID: 1085990868}
   - component: {fileID: 1085990867}
   m_Layer: 5
-  m_Name: InputField (TMP) (1)
+  m_Name: LabelUsername
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2186,7 +2186,7 @@ GameObject:
   - component: {fileID: 1274549079}
   - component: {fileID: 1274549078}
   m_Layer: 5
-  m_Name: Text (TMP) (2)
+  m_Name: textPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2321,7 +2321,7 @@ GameObject:
   - component: {fileID: 1280112597}
   - component: {fileID: 1280112596}
   m_Layer: 5
-  m_Name: InputField (TMP) (3)
+  m_Name: LabelConfirmPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2496,7 +2496,7 @@ GameObject:
   - component: {fileID: 1324401317}
   - component: {fileID: 1324401316}
   m_Layer: 5
-  m_Name: InputField (TMP) (2)
+  m_Name: LabelPassword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2856,7 +2856,7 @@ GameObject:
   - component: {fileID: 1819070449}
   - component: {fileID: 1819070448}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: textEmail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2901,7 +2901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Correo electr\xF3nico:"
+  m_text: 'e-mail:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}

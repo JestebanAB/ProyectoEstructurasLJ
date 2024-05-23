@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7eae4664eb7827f4692499f607c821fe
+guid: a78994a9acd491a408822eea8efcc2f0
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Norse
+  - Viking Hell
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

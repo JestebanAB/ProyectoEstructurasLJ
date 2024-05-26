@@ -358,7 +358,7 @@ MonoBehaviour:
   m_text: "No tienes una cuenta? registrate aqu\xED."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -723,7 +723,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 924988889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &924988889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,7 +936,7 @@ MonoBehaviour:
   m_text: "Contrase\xF1a:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1208,7 +1220,7 @@ MonoBehaviour:
   m_text: "Iniciar sesi\xF3n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1434,7 +1446,7 @@ MonoBehaviour:
   m_text: "Correo electr\xF3nico o usuario:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -183,7 +183,7 @@ MonoBehaviour:
   m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -339,7 +339,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 429663257}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &429663257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +450,7 @@ MonoBehaviour:
   m_text: Selecciona el nivel
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -742,7 +754,7 @@ MonoBehaviour:
   m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -876,7 +888,7 @@ MonoBehaviour:
   m_text: 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1114,7 +1126,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 928675579}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &928675579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,7 +1237,7 @@ MonoBehaviour:
   m_text: 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1369,7 +1393,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137021582}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level5
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1137021582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1408,6 +1444,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137021579}
   m_CullTransparentMesh: 1
+--- !u!1 &1169221670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169221672}
+  - component: {fileID: 1169221671}
+  m_Layer: 0
+  m_Name: Controlador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1169221671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169221670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff055e17be9521d4382384d663cf6b92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1169221672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169221670}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 594.3967, y: 254.02028, z: -3.6318293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1305974938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1490,7 +1570,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1305974941}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level6
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1305974941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,7 +1703,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1338688680}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1338688680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1732,7 +1836,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1424855032}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1169221671}
+        m_TargetAssemblyTypeName: Controlador, Assembly-CSharp
+        m_MethodName: CambiarEscena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1424855032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1831,7 +1947,7 @@ MonoBehaviour:
   m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2057,7 +2173,7 @@ MonoBehaviour:
   m_text: 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
-  m_sharedMaterial: {fileID: 6088950205716512616, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
+  m_sharedMaterial: {fileID: 6476220608264947071, guid: 094d40e9a356de841908c2a645e495ef, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2138,3 +2254,4 @@ SceneRoots:
   - {fileID: 1519399985}
   - {fileID: 469287189}
   - {fileID: 613039962}
+  - {fileID: 1169221672}

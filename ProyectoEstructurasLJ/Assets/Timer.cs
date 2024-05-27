@@ -33,8 +33,7 @@ public class Timer : MonoBehaviour
 
     public void FinTiempo()
     {
-        timerBool = false;
-        
+        timerBool = false;        
     }
 
     private IEnumerator ActUpdate()

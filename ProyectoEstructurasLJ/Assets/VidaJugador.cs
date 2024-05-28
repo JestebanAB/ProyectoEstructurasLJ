@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class VidaJugador : MonoBehaviour
 {
-    [SerializeField] private float vida;
+    [SerializeField] int vida;
+    [SerializeField] int maximoVida;
 
-    public void TomarDaño(float daño)
+    public void Start()
+    {
+        vida = maximoVida;
+    }
+
+    public void TomarDaño(int daño)
     {
         vida -= daño;
 

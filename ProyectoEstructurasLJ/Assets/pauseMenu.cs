@@ -39,8 +39,7 @@ public class pauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         PauseButton.SetActive(true);
         PauseMenu.SetActive(false);
-        Cursor.visible = false; // Hacer el cursor invisible
-        Cursor.lockState = CursorLockMode.Locked; // Bloquear el cursor
+        
         isPaused = false;
     }
 
@@ -50,9 +49,4 @@ public class pauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void exit()
-    {
-        Debug.Log("Cerrando juego...");
-        Application.Quit();
-    }
 }

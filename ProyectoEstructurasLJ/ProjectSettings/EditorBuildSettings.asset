@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Menus/RegisterScreen.unity
     guid: 4a186dd268130674bbfc4c14a2a04efd
   - enabled: 1
-    path: Assets/Menus/ScoreScreen.unity
+    path: Assets/Menus/ScoreScreenLevel1.unity
     guid: 04c292a9de7e54b40a02fafd4aa3a494
   - enabled: 1
     path: Assets/Menus/StartMenu.unity

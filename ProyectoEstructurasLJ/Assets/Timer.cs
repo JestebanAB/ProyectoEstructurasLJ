@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
     public Text Crono;
     private TimeSpan tiempoCrono;
     private bool timerBool;
-    private float tiempoTrans;
+    public float tiempoTrans;
 
     private void Awake()
     {

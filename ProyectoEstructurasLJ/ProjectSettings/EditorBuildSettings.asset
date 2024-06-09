@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Menus/Register-login.unity
     guid: 81ab4694dfcbe3b438af59d935bba4be
   - enabled: 1
+    path: Assets/Menus/Leaderboard.unity
+    guid: 672eb4aaa49709d4695907e413a894ef
+  - enabled: 1
     path: Assets/Menus/RegisterScreen.unity
     guid: 4a186dd268130674bbfc4c14a2a04efd
   - enabled: 1
@@ -42,8 +45,14 @@ EditorBuildSettings:
     path: Assets/Levels/Level5.unity
     guid: 3c243963797ee6544b181d330e34b971
   - enabled: 1
+    path: Assets/Levels/Level4.unity
+    guid: 6f6ba3ce40ea087418da1297b8855a9d
+  - enabled: 1
     path: Assets/Levels/Level6.unity
     guid: a2e7b09fd96db2145a218f9b537f56a2
+  - enabled: 1
+    path: Assets/Levels/Level3.unity
+    guid: 06fb8905c0844e34a927e6134c95036d
   - enabled: 1
     path: Assets/Levels/Level8.unity
     guid: a53bc64e6a5027043b887e93ac140d13

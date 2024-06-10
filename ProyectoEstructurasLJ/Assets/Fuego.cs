@@ -8,7 +8,7 @@ public class Fuego : MonoBehaviour
     [SerializeField] private float tiempoEntreDaño;
     private float tiempoSiguienteDaño;
 
-    private void OnTriggerStray2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
         {
@@ -16,7 +16,7 @@ public class Fuego : MonoBehaviour
 
             if(tiempoSiguienteDaño <= 0)
             {
-                other.GetComponent<VidaJugador>().TomarDaño(5);
+                other.GetComponent<VidaJugador>().TomarDaño(100);
                 tiempoSiguienteDaño = tiempoEntreDaño;
             }   
             

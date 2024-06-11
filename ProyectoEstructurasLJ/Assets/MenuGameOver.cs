@@ -18,15 +18,18 @@ public class MenuGameOver : MonoBehaviour
     private void ActivarMenu(object sender, EventArgs e)
     {
         menuGameOver.SetActive(true);
+        Time.timeScale = 0; // Pausa el juego
     }
 
     public void Reiniciar()
     {
+        Time.timeScale = 1; // Reanuda el juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
     public void MenuInicial(string nombre)
     {
+        Time.timeScale = 1; // Reanuda el juego
         SceneManager.LoadScene(nombre);
     }
 }

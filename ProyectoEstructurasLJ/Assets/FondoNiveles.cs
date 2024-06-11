@@ -17,8 +17,10 @@ public class FondoNiveles : MonoBehaviour
 
     private void Update()
     {
-        offset = (player.velocity.x * 0.1f)*movementVelocity * Time.deltaTime;
-        material.mainTextureOffset += offset;
-
+        if (player != null)
+        {
+            offset = (player.velocity.x * 0.1f)*movementVelocity * Time.deltaTime;
+            material.mainTextureOffset += offset;
+        }
     }
 }
